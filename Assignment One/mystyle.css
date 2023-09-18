@@ -354,11 +354,12 @@ body {
 }
 .education i{
    color: rgb(0,89,255);
-   color: rgb(192,114,0);
-   background-color: white;
+   color: rgb(255, 166, 0);
+   /* color: rgb(192,114,0); */
+   /* background-color: white; */
   /* color: #FF7800;
   color: #006aff90; */ 
-  border: 1px solid  rgb(0, 0, 0);
+  /* border: 1px solid  rgb(0, 0, 0); */
   border-radius: 50%;
   
 }
