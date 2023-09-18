@@ -299,7 +299,7 @@ body {
   z-index: 20;
   margin-top: 8   px;
   color:white;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
   overflow-x: visible;
   /* text-align: center; */
   position: relative;
@@ -307,12 +307,7 @@ body {
   
 
 }
-.name h1{
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* text-align: center; */
-  /* padding-top: 20px; */
-}
+
 .fname{
         margin-left: 30%;
 }
@@ -358,11 +353,18 @@ body {
  
 }
 .education i{
-  color: rgb(255, 166, 0);
+   color: rgb(0,89,255);
+   color: rgb(192,114,0);
+   background-color: white;
+  /* color: #FF7800;
+  color: #006aff90; */ 
+  border: 1px solid  rgb(0, 0, 0);
+  border-radius: 50%;
+  
 }
 .skills{
-  /* display: flex; */
-  /* justify-content: space-evenly; */
+  display: flex;
+  justify-content: space-evenly;
   /* align-items: center; */
   margin-top: 1%;
   margin-bottom: 1%;
@@ -384,6 +386,13 @@ hr{
   margin-left: 30px
 }
 .webdeveloper{
-  margin-left: 55%;
+  margin-left: 51%;
+}
+.skills h3{
+  margin-right: 25px;
+  width: 80px;
+}
+.skills progress{
+  margin-left: 20px;
 }
 ;

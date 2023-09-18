@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+}
+.navbar{
+    background-color: black;
+    color: white;
+}
+.logo{
+height: 55px;
+width: 60px;
+margin-right: 10px;
+filter: invert(100%);
+}
