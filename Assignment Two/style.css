@@ -8,7 +8,10 @@
   background-color: black;
   color: white;
 }
-
+body{
+  background-color: black;
+  color: white;
+}
 /* img {
   height: 40rem;
 } */
@@ -65,7 +68,7 @@
 }
 .vl {
   border-top: 5px solid yellow;
-  width: 98.72vw;
+  width: 97.8vw;
   overflow: none;
 }
 nav {
@@ -490,5 +493,102 @@ form a{
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
+#myform{
+  /* display: flex;
+  flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+input{
+  justify-content: center;
+}
+label{
+  display: block;
+}
+.signb button{
+  margin-top: 15px;
+ 
+}
+.signb{
+  color: #ffc107;
+  background-color: #ffc107;
+}
+#myform .error {
+  color: #ff0000;
+  /* border: 1px solid red; */
+  
+}
+#myform {
+ 
+  border-radius: 4px;
+}
+#myform label,
+#myform input,
+#myform button {
+  border: 0;
+  margin-bottom: 3px;
+  display: block;
+  width: 100%;
+}
+#myform input{
+ min-height: 2rem;
+}
+#myform input {
+  height: 25px;
+  line-height: 25px;
+  background: #202020;
+  color: white;
+  padding: 0 6px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+#myform button {
+  height: 30px;
+  line-height: 30px;
+  background: #ffc107;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+.containersign{
+ margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  
+ 
+}
+.membership{
+  min-height: 100vh;
+  background-image: url("assets/membership.jpg ");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  
+}
+.membership h1{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 23%;
+}
+.elements{
+  margin-top: 2%
+}
+.branches{
+  background-color: black;
+  color: white;
+  padding: 3px;
+ 
+}
+.elements1{
+  display: flex;
+  justify-content: space-around
+}
 
 ;
