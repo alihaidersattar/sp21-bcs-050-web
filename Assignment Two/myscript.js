@@ -3,7 +3,10 @@ $(document).ready(function () {
       rules: {
         name: "required",
         lname: "required",
-        username: "required",
+        username:{
+          required:true,
+          minlength:5,
+        },
         email: {
           required: true,
           email: true // Validates that the input is an email address
@@ -19,9 +22,12 @@ $(document).ready(function () {
         }
       },
       messages: {
-        name: "Please enter your first name",
-        lname: "Please enter your last name",
-        username: "Please enter a username",
+        name: "Please enter your first name.",
+        lname: "Please enter your last name.",
+        username: {
+          required: "Please enter a username.",
+          minlength: "Enter a username with at least 5 characters."
+        },
         email: {
           required: "Please enter your email address.",
           email: " Enter a valid email address."

@@ -3,13 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Register page</title>
+    <title>Form</title>
     <link rel="stylesheet" href="mystyle.css" />
   </head>
   <body>
     <div class="container">
-      <h1>Register page</h1>
+      <h1>Membership Form</h1>
       <form action="" id="myform">
+        <div>
+          <label for="name">First name: </label>
+          <input type="text" name="name" id="name" />
+          
+        </div>
+        <div>
+          <label for="lname">Last name: </label>
+          <input type="text" name="lname" id="lname" />
+          
+        </div>
         <div>
           <label for="username">Username: </label>
           <input type="text" name="username" id="username" />
@@ -27,8 +37,29 @@
           <label for="confirm password"> Confirm Password:</label>
           <input type="password" name="Cpassword" id="Cpassword" />
         </div>
+        <div class="elements1">
+          <div>
+            <label for="branch">Choose a Branch:</label>
+            <select name="branches" class="branches" id="branch">
+            <option value="lahore">Lahore</option>
+            <option value="karachi">Karachi</option>
+            <option value="Sialkot">Sialkot</option>
+            <option value="islamabad">Islamabad</option>
+          </select>
+          </div>
+         
+          <div>
+            <label for="branch">Choose a package:</label>
+            <select name="branches" class="branches" id="branch">
+              <option value="lahore">Monthly</option>
+              <option value="karachi">Quartely</option>
+              <option value="Sialkot">Yearly</option>
+              
+            </select>
+          </div>
+        </div>
         <div>
-          <button>Sign Up</button>
+          <button>Submit</button>
         </div>
       </form>
     </div>
